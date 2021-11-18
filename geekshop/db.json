@@ -1,0 +1,226 @@
+[
+  {
+    "model": "mainapp.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "���",
+      "description": "",
+      "created": "2021-11-03T14:11:20.543Z",
+      "updated": "2021-11-03T14:11:20.914Z"
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "����",
+      "description": "",
+      "created": "2021-11-03T14:11:20.543Z",
+      "updated": "2021-11-03T14:11:20.914Z"
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "������",
+      "description": "",
+      "created": "2021-11-03T14:11:20.543Z",
+      "updated": "2021-11-03T14:11:20.914Z"
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 4,
+    "fields": {
+      "name": "��������",
+      "description": "",
+      "created": "2021-11-03T14:11:20.543Z",
+      "updated": "2021-11-03T14:11:20.914Z"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "�����-�����",
+      "image": "products_images/product-1.jpg",
+      "short_desc": "�������� �����",
+      "description": "��������� �������� ����� ���������",
+      "price": "100.00",
+      "quantity": 10
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "������ �����",
+      "image": "products_images/product-2.jpg",
+      "short_desc": "������ ������",
+      "description": "��������� �������� ��� ������ ���������",
+      "price": "1600.00",
+      "quantity": 70
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "�����",
+      "image": "products_images/product-3-sm.jpg",
+      "short_desc": "����� ������ �����",
+      "description": "�������� ����� ������������ �������",
+      "price": "6000.00",
+      "quantity": 85
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 4,
+    "fields": {
+      "category": 4,
+      "name": "����������",
+      "image": "products_images/product-5-sm.jpg",
+      "short_desc": "���������� ����������",
+      "description": "������������ ������, �������� ����",
+      "price": "600.00",
+      "quantity": 20
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "������",
+      "image": "products_images/product-3.jpg",
+      "short_desc": "������ �����",
+      "description": "������� ����� ��������",
+      "price": "100.00",
+      "quantity": 23
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 6,
+    "fields": {
+      "category": 2,
+      "name": "����",
+      "image": "products_images/product-4-sm.jpg",
+      "short_desc": "���� ���������",
+      "description": "����� ���������� �����",
+      "price": "560.00",
+      "quantity": 78
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 7,
+    "fields": {
+      "category": 3,
+      "name": "���������� ������",
+      "image": "products_images/product-11.jpg",
+      "short_desc": "�������� ����������",
+      "description": "��������� ���� �� ���",
+      "price": "340.00",
+      "quantity": 60
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 8,
+    "fields": {
+      "category": 4,
+      "name": "����� � ������",
+      "image": "products_images/product-31.jpg",
+      "short_desc": "����� ��� �������",
+      "description": "������� ������� ������",
+      "price": "450.00",
+      "quantity": 80
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "name": "�����",
+      "image": "products_images/product-51.jpg",
+      "short_desc": "����� ��� �����",
+      "description": "����� ����������� �������",
+      "price": "260.00",
+      "quantity": 70
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 10,
+    "fields": {
+      "category": 2,
+      "name": "���� �������",
+      "image": "products_images/product-4.jpg",
+      "short_desc": "���� ��������� �����",
+      "description": "��������� �������� ��� � ������� ������������",
+      "price": "1530.00",
+      "quantity": 70
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 11,
+    "fields": {
+      "category": 2,
+      "name": "���� �����",
+      "image": "",
+      "short_desc": "���� ��� ������������",
+      "description": "���� ��� ���������� �����������",
+      "price": "670.00",
+      "quantity": 10
+    }
+  },
+  {
+    "model": "mainapp.contact",
+    "pk": 1,
+    "fields": {
+      "name": "���� 1",
+      "city": "������",
+      "phone": "+8095 812-45-15",
+      "email": "info@geekshop.ru",
+      "address": "� �������� ����"
+    }
+  },
+  {
+    "model": "mainapp.contact",
+    "pk": 2,
+    "fields": {
+      "name": "���� 2",
+      "city": "�����-���������",
+      "phone": "+7812 568-34-75",
+      "email": "geekshopoffice@mail.ru",
+      "address": "� �������� ���"
+    }
+  },
+  {
+    "model": "mainapp.contact",
+    "pk": 3,
+    "fields": {
+      "name": "���� 3",
+      "city": "������������",
+      "phone": "+8876 674-65-82",
+      "email": "geekshopoffice@yandex.ru",
+      "address": "����� ������"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2mq8llodqu3vcgb9fbtyxobdn8uxdt2a",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQAP-FsyGQbXl49O43kF1YpGogKe3J-O9K0oNeZybzEgH3rYS98xqWJM5Ci9MvI4wPrkOkO9Zbk7HVbV1IjkQetstrS_y8HO3foGAvY6tmqw1wngz4mBx4tFaBm3zU3jszsc0K2TpiggyaUNuZ_DcGiOyMeH8At_Y3BQ:1mi6Iw:aytJh0E2xcikbvip4S8JC6W7yvajXazDHVA00e6Z4qY",
+      "expire_date": "2021-11-17T02:47:10.977Z"
+    }
+  }
+]
