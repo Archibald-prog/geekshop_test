@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'authapp',
     'basketapp',
     'adminapp',
+    'ordersapp',
 
     # приложения django по умолчанию
     'django.contrib.admin',
@@ -56,6 +57,9 @@ AUTH_USER_MODEL = 'authapp.ShopUser'
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend', # бекенд классической аутентификации - через логин и пароль
     'social_core.backends.vk.VKOAuth2',  # бекенд авторизации через ВКонтакте
+    # 'social.backends.facebook.FacebookOAuth2',
+    # 'social_core.backends.instagram.InstagramOAuth2',
+    # 'social.backends.google.GoogleOAuth2',
 )
 
 MIDDLEWARE = [
@@ -170,8 +174,11 @@ EMAIL_HOST_USER = 'b066daeec7877a'
 EMAIL_HOST_PASSWORD = '7856f86cb374be'
 EMAIL_PORT = '2525'
 
-SOCIAL_AUTH_VK_OAUTH2_KEY = env('SOCIAL_AUTH_VK_OAUTH2_ID')
-SOCIAL_AUTH_VK_OAUTH2_SECRET = env('SOCIAL_AUTH_VK_OAUTH2_KEY')
+SOCIAL_AUTH_VK_OAUTH2_KEY = env('SOCIAL_AUTH_VK_OAUTH2_ID')   # ссылка на ID приложения, указанный в файле .env
+SOCIAL_AUTH_VK_OAUTH2_SECRET = env('SOCIAL_AUTH_VK_OAUTH2_KEY')   # ссылка на секретный ключ, указанный в файле .env
+
+# SOCIAL_AUTH_FACEBOOK_KEY ='1724347484432322'
+# SOCIAL_AUTH_FACEBOOK_SECRET ='49c99ef343fca40b1f481bc77a7959e6'
 
 SOCIAL_AUTH_VK_OAUTH2_IGNORE_DEFAULT_SCOPE = True
 SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['email']
