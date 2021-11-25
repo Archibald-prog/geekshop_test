@@ -1,0 +1,92 @@
+[
+  {
+      "category": "Дом",
+      "name": "Лампа-сфера",
+      "image": "products_images/product-1.jpg",
+      "short_desc": "Стильная лампа",
+      "description": "Прекрасно освещает любые пространства",
+      "price": "100.00",
+      "quantity": 10
+  },
+  {
+      "category": "Офис",
+      "name": "Стулья синие",
+      "image": "products_images/product-2.jpg",
+      "short_desc": "Хорошие стулья",
+      "description": "Удобное сиденье на любой вкус",
+      "price": "1600.00",
+      "quantity": 70
+  },
+  {
+      "category": "Модерн",
+      "name": "Диван",
+      "image": "products_images/product-3-sm.jpg",
+      "short_desc": "Диван серого цвета",
+      "description": "Прекрасный диван в любом интерьере",
+      "price": "6000.00",
+      "quantity": 85
+  },
+  {
+      "category": "Классика",
+      "name": "Светильник",
+      "image": "products_images/product-5-sm.jpg",
+      "short_desc": "Светильник потолочный",
+      "description": "Приятно освещает, легко крепится",
+      "price": "600.00",
+      "quantity": 20
+  },
+  {
+      "category": "Дом",
+      "name": "Чайник",
+      "image": "products_images/product-3.jpg",
+      "short_desc": "Чайник белый",
+      "description": "Кипятит любые жидкости",
+      "price": "100.00",
+      "quantity": 23
+  },
+  {
+      "category": "Офис",
+      "name": "Стул",
+      "image": "products_images/product-4-sm.jpg",
+      "short_desc": "Стул красный",
+      "description": "Стул с приятным дизайном",
+      "price": "560.00",
+      "quantity": 78
+  },
+  {
+      "category": "Модерн",
+      "name": "Лампа в стиле модерн",
+      "image": "products_images/product-11.jpg",
+      "short_desc": "Отличная лампа",
+      "description": "Освещает, не обременяя",
+      "price": "340.00",
+      "quantity": 60
+  },
+  {
+      "category": "Классика",
+      "name": "Лампа для спальни",
+      "image": "products_images/product-31.jpg",
+      "short_desc": "Лампа на тумбочку",
+      "description": "Приятный свет для спальни",
+      "price": "450.00",
+      "quantity": 80
+  },
+  {
+      "category": "Дом",
+      "name": "Чашка",
+      "image": "products_images/product-51.jpg",
+      "short_desc": "Чашка для кухни",
+      "description": "Облегчает готовку",
+      "price": "260.00",
+      "quantity": 70
+  },
+  {
+      "category": "Офис",
+      "name": "Стул красный",
+      "image": "products_images/product-4.jpg",
+      "short_desc": "Стул красного цвета",
+      "description": "Стул необычной конструкции",
+      "price": "1530.00",
+      "quantity": 70
+  }
+]
