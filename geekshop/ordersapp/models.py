@@ -48,7 +48,7 @@ class Order(models.Model):
         verbose_name_plural = 'заказы'
 
     def __str__(self):
-        return f'Заказ {self.user.name} №{self.id} от {self.created}'
+        return f'Заказ {self.user.username} №{self.id} от {self.created}'
 
     def get_total_quantity(self):
         items = self.orderitems.select_related()
@@ -86,6 +86,10 @@ class OrderItem(models.Model):
         verbose_name='количество',
         default=0,
     )
+
+    @staticmethod
+    def get_item(pk):
+        return OrderItem.objects.filter(pk=pk).first()
 
     def get_product_cost(self):
         return self.product.price * self.quantity
