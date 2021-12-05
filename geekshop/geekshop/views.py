@@ -10,7 +10,7 @@ def main(request):
     # if request.user.is_authenticated:
     #     basket = Basket.objects.filter(user=request.user)
 
-    products = Product.objects.all()[:4]
+    products = Product.objects.filter(is_active=True, category__is_active=True).select_related('category')[:4]
 
     context = {
         'title': title,
