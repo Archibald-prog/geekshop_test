@@ -1,0 +1,23 @@
+[
+  {
+      "name": "Офис 1",
+      "city": "Москва",
+      "phone": "+8095 812-45-15",
+      "email": "info@geekshop.ru",
+      "address": "в пределах МКАД"
+  },
+  {
+      "name": "Офис 2",
+      "city": "Санкт-Петербург",
+      "phone": "+7812 568-34-75",
+      "email": "geekshopoffice@mail.ru",
+      "address": "в пределах КАД"
+  },
+  {
+      "name": "Офис 3",
+      "city": "Екатеринбург",
+      "phone": "+8876 674-65-82",
+      "email": "geekshopoffice@yandex.ru",
+      "address": "центр города"
+  }
+]
